@@ -1,4 +1,12 @@
 # just-the-docs-template
+테스트 명령: bundle exec jekyll serve
+을 백그라운드에서 돌리기
+:Start-Process powershell -ArgumentList '-NoProfile -Command "bundle exec jekyll serve"' -WindowStyle Hidden
+종료하는법 \:
+
+1. Get-Process -Name powershell 로 powershell 프로세스찾고
+2. Stop-Process -Id \[찾은 PID\] 해서 종료
+
 
 This is a *bare-minimum* template to create a [Jekyll] site that:
 
